@@ -1,0 +1,5 @@
+CodePipeline là một dịch vụ phân phối liên tục mà bạn có thể sử dụng để mô hình hóa, trực quan hóa và tự động hóa các bước cần thiết để phát hành phần mềm của bạn.
+
+Code commit là một dịch vụ kiểm soát source được quản lý toàn phần, giúp lưu trữ bảo mật các kho dữ liệu Git. Dịch vụ này giúp các nhóm dễ dàng phối hợp với nhau the mã trong một hệ sinh thái có khả năng thay đổi quy mô linh hoạt và bảo mật.
+
+Code deploy là một dịch vụ triển khai được quản lý toàn phần có khả năng tự động hóa việc triển khai phần mềm trên các dịch vụ AWS như EC2, AWS Fargate, AWS Lamda và on-premise servers.
