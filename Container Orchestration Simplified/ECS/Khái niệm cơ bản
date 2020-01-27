@@ -1,0 +1,21 @@
+1. Công nghệ containerlization
+- là một công nghệ ảo hóa, trong đó 1 máy chủ có thể sinh ra được nhiều máy con nhưng các máy con dùng chung phần nhân của máy mẹ và chia sẻ
+với nhau tài nguyên của mẹ. Khi napf cần tài nguyên mới được cấp và cấp đúng với phần cần sử dụng -> tối ưu tối đa tài nguyên sử dụng.
+
+2. Docker
+- là một công cụ để đáp ứng công việc việc của containerlization - công cụ ảo hóa cho container.
+- Chỉ chạy trên môi trường Linux
+
+3. Container
+- Một docker container là một đơn vị chuẩn của phát triển phần mềm nó chứa tất cả các phần mềm cần thiết để chạy code, runtime, systemtool,
+  system libaries... Container được tạo ra từ read-only template(image)
+
+4. Image
+- Là một file text chỉ ra tất cả các thành phần chứa trong container.
+- Được build từ Dockerfile
+-> Những image này được lưu vào trong một registry, chúng có thể được download và chạy trong cluster
+
+5. Task definition
+- Là một dạng text file. Mô tả 1 hoặc nhiều container để hình thành nên ứng dụng của bạn.
+- Task definition sẽ chỉ ra một vài parameter cho ứng dụng container nào sẽ được sử dụng, launch type sẽ được dùng những port nào sẽ được
+mở cho ứng dụng và data volume gì sẽ được với container trong task.
