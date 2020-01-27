@@ -5,7 +5,8 @@ với nhau tài nguyên của mẹ. Khi napf cần tài nguyên mới được c
 2. Docker
 - là một công cụ để đáp ứng công việc việc của containerlization - công cụ ảo hóa cho container.
 - Chỉ chạy trên môi trường Linux
-
+* AWS định nghĩa: Docker pagkages software into standardized units called containers that have everything your software needs to run including libararies, system tool, code, and runtime.
+* Lets you quickly deploy and scale applications into any enviroment and know your code will run.
 3. Container
 - Một docker container là một đơn vị chuẩn của phát triển phần mềm nó chứa tất cả các phần mềm cần thiết để chạy code, runtime, systemtool,
   system libaries... Container được tạo ra từ read-only template(image)
