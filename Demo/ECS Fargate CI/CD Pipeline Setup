@@ -1,0 +1,8 @@
+1. Create Cluster
+2. Create Task Definition
+  - Add container
+3. Tạo ALB
+  - Tạo target group
+  - Tạo ALB
+4. 
+  
