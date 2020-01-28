@@ -14,3 +14,5 @@ Trong CodeDeploy, một ứng dụng là một tài nguyên chứa ứng dụng 
   Deployment settings
 Deployment configuration
 Choose from a list of default and custom deployment configurations. A deployment configuration is a set of rules that determines how fast an application is deployed and the success or failure conditions for a deployment.
+
+Evaluation order in load balancer for container: quy định thứ tự ưu tiên cho path pattern, chỉ số càng thấp thì độ ưu tiên càng cao. Có thể định tuyến lưu lượng truy cập từ trình nghe này đến các dịch vụ trung gian bằng cách tạo đường dẫn cho mỗi dịch vụ
