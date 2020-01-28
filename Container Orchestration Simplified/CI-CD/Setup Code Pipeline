@@ -1,0 +1,6 @@
+1. Clone source về local
+2. Cài đặt EC2 và install CoeDeploy Agent 
+  - Tạo IAM để EC2 có quyền tìm napk tệp mà CodeDeploy Agent sử dụng để triển khai
+3. Tạo 1 app trong CodeDeploy
+  - Gán quyền cho CodeDeploy có thể triển khai
+  - Tạo ứng dụng CodeDeploy
