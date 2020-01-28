@@ -1,0 +1,7 @@
+1. Why not Listener, Target group default of ALB ?
+  * Concept
+  - Each target group is used to route requests to one or more registered targets.
+  - A listener is a process that checks for connection requests, using the protocol and port that you configure.
+ => Mỗi service sẽ có 1 yêu cầu port, health check khác nhau nên tạo riêng targer group và listener cho mỗi service ??
+ 
+ 
