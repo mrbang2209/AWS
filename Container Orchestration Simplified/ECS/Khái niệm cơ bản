@@ -12,9 +12,8 @@ với nhau tài nguyên của mẹ. Khi napf cần tài nguyên mới được c
 - Một docker container là một đơn vị chuẩn của phát triển phần mềm nó chứa tất cả các phần mềm cần thiết để chạy code, runtime, systemtool,
   system libaries... Container được tạo ra từ read-only template(image)
 
-4. Image
-- Là một file text chỉ ra tất cả các thành phần chứa trong container.
-- Được build từ Dockerfile
+4.Docker Image
+- Tương tự như 1 bản snapshot. -> Dùng để khởi tạo các Docker container.
 -> Những image này được lưu vào trong một registry, chúng có thể được download và chạy trong cluster
 * POINT IN TIME CAPTURE OF CODE AND DEPENDENCIES
 
