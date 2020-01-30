@@ -1,6 +1,8 @@
 AWS RAM(Resource Access Manager) là dịch vụ chia sẻ tài nguyên của mình cho các tài khoản AWS khác hoặc thông qua các tổ chức AWS.
 Nếu bạn có nhiều tài khoản AWS, bạn có thể tạo tài nguyên tập trung và sử dụng RAM AWS để chia sẻ các tài nguyên đó với các tài khoản khác.
 
+You cab share AWS Transit Gateways, Subnet, AWS License Manager configurations, and Amazon Route53 Resolver rules resource with RAM
+
 Các phương pháp access RAM
 Accessing AWS RAM
 You can work with AWS RAM in any of the following ways:
@@ -16,3 +18,4 @@ AWS provides commands for a broad set of AWS products for those who script in th
 
 Query API
 The AWS RAM HTTPS Query API gives you programmatic access to AWS RAM and AWS. The AWS RAM API lets you issue HTTPS requests directly to the service. When you use the AWS RAM API, you must include code to digitally sign requests using your credentials. For more information, see the AWS RAM API Reference.
+
