@@ -35,7 +35,7 @@ RUN has 2 forms:
     FROM ubuntu
     RUN apt-get update
     RUN apt-get install curl -y
-  }}}
+ 
   -> Sử dụng khi muốn thực thi 1 command trong quá trình build.
   
 # CMD
