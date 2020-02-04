@@ -24,6 +24,8 @@ FROM [--platform=<platform>] <image>[@<digest>] [AS <name>]
 
 ARG
   ARG  CODE_VERSION=latest
+  
+  -> Định nghĩa biến cho quá trình build docker image. Biến chỉ có scope khi build image, không sử dụng được khi docker container running.
 
 RUN
 RUN has 2 forms:
@@ -35,3 +37,23 @@ RUN has 2 forms:
     RUN apt-get install curl -y
   }}}
   -> Sử dụng khi muốn thực thi 1 command trong quá trình build.
+  
+CMD
+  CMD ["curl", "ipinfo.io"]
+  CMD curl ifconfig.io
+  
+  -> CMD dùng để truyền một lệnh của Linux mỗi khi thực hiện khởi tạo 1 container từ image được build từ dockerfile.
+  
+ LABEL
+  LABEL <key>=<value> <key>=<value> <key>=<value> ...
+  -> Dùng để add các metadata vào image
+  -> Để xem các label của images, dùng lệnh docker inspect 
+ 
+ MAINTAINER
+  MAINTAINER <name>
+  -> Dùng để đặt tên tác giả
+  
+ EXPOSE
+    EXPOSE 80/udp
+    - Lệnh thiết định Docker Image sẽ listener trên các cổng chỉ định khi chạy
+  
