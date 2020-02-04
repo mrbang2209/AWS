@@ -107,5 +107,11 @@ USER
       SHELL ["cmd", "/S"", "/C"]
       RUN echo hello
      
-    
+# ADD
+     Copy file, thư mục, remote files URL(src) và thêm chúng vào file system của image(dest)
+     
+     
+     
+ Sự khác nhau giữa ADD và COPY
+ https://nickjanetakis.com/blog/docker-tip-2-the-difference-between-copy-and-add-in-a-dockerile
   
