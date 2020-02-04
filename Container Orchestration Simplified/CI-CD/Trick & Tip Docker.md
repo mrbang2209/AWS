@@ -20,3 +20,9 @@ https://nickjanetakis.com/blog/docker-tip-5-the-benefits-of-using-the-same-base-
 
 # Docker Tip #6: Installing Docker on a Chromebook
 https://nickjanetakis.com/blog/docker-tip-6-installing-docker-on-a-chromebook
+
+# Docker Tip #7: The Difference between RUN and CMD in a Dockerfile
+https://nickjanetakis.com/blog/docker-tip-7-the-difference-between-run-and-cmd
+
+# Docker Tip #8: Overriding Your Dockerfile's CMD
+https://nickjanetakis.com/blog/docker-tip-8-overriding-your-dockerfiles-cmd
