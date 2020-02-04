@@ -26,3 +26,32 @@ https://nickjanetakis.com/blog/docker-tip-7-the-difference-between-run-and-cmd
 
 # Docker Tip #8: Overriding Your Dockerfile's CMD
 https://nickjanetakis.com/blog/docker-tip-8-overriding-your-dockerfiles-cmd
+
+# Docker Tip #9: Installing Popular Packages on Alpine
+https://nickjanetakis.com/blog/docker-tip-9-installing-popular-packages-on-alpine
+
+# Docker Tip #10: Project Structure with Multiple Dockerfiles and Docker Compose
+
+# Docker Tip #11: Solving Docker Problems as a Docker Beginner
+
+# Docker Tip #12: A Much Better Development Experience with Volumes
+
+# Docker Tip #13: Get Docker for Windows and VirtualBox Working Together
+
+# Docker Tip #14: Going All In with Automation Is Optional with Docker
+
+# Docker Tip #15: Opening and Closing Ports to the Outside World
+
+# Docker Tip #16: Redirect a Container's File onto Your Docker Host
+
+# Docker Tip #17: Breaking Up Long Lines in Your Dockerfile
+
+# Docker Tip #18: Please Pin Your Docker Image Versions
+
+# Docker Tip #19: How to Ignore Files from Your Docker Images
+
+# Docker Tip #20: Managing Docker without Sudo on Linux
+
+# Docker Tip #21: Measure Your Docker Containers' Resources
+
+# Docker Tip #22: Checking the Exit Code of Stopped Containers
