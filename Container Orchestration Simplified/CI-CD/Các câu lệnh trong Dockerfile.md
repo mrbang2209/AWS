@@ -55,5 +55,33 @@ CMD
   
  EXPOSE
     EXPOSE 80/udp
-    - Lệnh thiết định Docker Image sẽ listener trên các cổng chỉ định khi chạy
+    - Lệnh thiết định Docker Image sẽ listener trên các cổng chỉ định khi chạy. Câu lệnh chỉ dể khai náo, không có chức năng NAT port từ host vào container.
+    - Muốn NAT port thì phải sử dụng -p hoặc -P trong quá trình khởi tạo container.
+    
+ENV
+  ENV myName John Doe
+  ENV myDog Rex The Dog
+  ENV myCat fluffy
   
+  - Khai báo các biến môi trường.
+  
+USER
+  Thiết định user name(UID) và user group(GID) khi chạy các lệnh RUN, CMD, ENTRYPOINT trong dockerfile.
+  
+WORKIR
+    ENV DIRPATH /path
+    WORKDIR $DIRPATH/$DIRNAME
+    RUN pwd
+    -> set the working directory for any RUN, CMD, ENTRYPOINT, COPY and ADD instruction that follow it in the Dockerfile.
+    - Nếu không tồn tại câu lệnh thì dockerfile sẽ tự tạo ngay cả khi không được sử dụng.
+    - Có thể được viết nhiều lần. Ví dụ
+        WORKDIR /a
+        WORKDIR b
+        WORKDIR c
+        RUN pwd
+      -> Lúc đấy lệnh RUN sẽ được xử lý ở thư mục a/b/c\
+    Có thể sử dụng được các biến môi trường. Ví dụ:
+        ENV DIRPATH /path
+        WORKDIR $DIRPATH/$DIRNAME
+        RUN pwd
+     -> Run chạy trong folder /path/$DIRNAME
