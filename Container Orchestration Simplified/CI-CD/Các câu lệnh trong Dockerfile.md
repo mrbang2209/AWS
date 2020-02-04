@@ -1,6 +1,8 @@
 Link tham khảo:
 https://docs.docker.com/engine/reference/builder/#from
+
 https://docker-ghichep.readthedocs.io/en/latest/dockerfile/
+
 https://kipalog.com/posts/Cac-lenh-trong-Dockerfile
 
 # $docker build -f /path/to/a/Dockerfile .
