@@ -1,0 +1,3 @@
+「aws acm describe-certificate --certificate-arn [ACM ARN]」 
+
+「aws acm list-tags-for-certificate --certificate-arn [ACM ARN]」 
