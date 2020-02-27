@@ -1,0 +1,3 @@
+aws route53 get-hosted-zone --id [HostedZone ID]
+
+aws route53 list-resource-record-sets --hosted-zone-id [HostedZone ID]
