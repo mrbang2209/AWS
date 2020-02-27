@@ -1,0 +1,1 @@
+aws iam get-policy-version --policy-arn arn:aws:iam::[アカウントID]:policy/[試験対象] --version-id [Policyの最新バージョン]
