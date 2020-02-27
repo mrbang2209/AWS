@@ -1,0 +1,3 @@
+「aws codepipeline get-pipeline --name [Pipeline Name]」 
+
+「aws codebuild batch-get-projects --name [Build Name]」 
