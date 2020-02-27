@@ -1,0 +1,7 @@
+「aws events list-targets-by-rule --rule [Rule Name]」
+
+「aws events describe-rule --name [Rule Name]」
+
+「aws logs describe-log-groups --log-group-name-prefix [log group name]」
+
+「aws cloudwatch describe-alarms --alarm-name-prefix [alarm name]」
