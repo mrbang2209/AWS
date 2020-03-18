@@ -1,0 +1,10 @@
+「aws acm describe-certificate --certificate-arn [ACM ARN]」 
+1.Region
+2. Details-Type
+3. Domain Name
+4. Details-Expiration End Time
+5. Detail-Public key infomation
+6. Details-Signature Algorithm
+7. Details-ARN
+「aws acm list-tags-for-certificate --certificate-arn [ACM ARN]」 
+8. Tag
