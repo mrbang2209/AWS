@@ -1,0 +1,14 @@
+Q: プライベートリンクを利用する際にはvppeeringなどを張らなくても利用出来る認識で宜しいでしょうか？
+-> When use a private link, can i use it without using vpcpeering ?
+-> Có thể sử dụng private link mà không cần VPC peering không?
+A: はい、VPCピアリングをはることなく利用可能です
+-> Yes, available without VPC peering
+-> Có, có thể sử dụng Private link mà không cần VPC Peering.
+
+Q: Có thể kết nối trực tiếp S3 từ EC2 mà không VPC Endpoint không ?
+A: Không. Kết nối từ EC2->S3 không phải là kết nối Internet. Nếu sử dụng VPC Endpoint thì tất cả Amazon <-> S3 đều miễn phí.
+
+Q: có thể sử dụng TransitGateway và VPC Peering cùng nhau ?
+A: Chúng có thể sử dụng cùng nhau. VPC peering chỉ yêu cầu trả phí cho việc chuyển đổi giữa các khu vực.
+    Transit Gateway yêu cầu trẻ thêm tiền cho data đính kèm và xử lý data.
+    
