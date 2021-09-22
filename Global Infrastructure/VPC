@@ -1,0 +1,4 @@
+CIDRs: Classless Inter Domain Routing
+  - IPv4 CIDRs: The range of IPv4 addresses for your VPC in CIDR block format
+  - IPv6 CIDRs: You can associtate an Amazon-provied IPv6 CIDR block with VPC
+ 
